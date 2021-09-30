@@ -25,16 +25,15 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxt/bridge',
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    '@nuxtjs/composition-api/module',
+    // '@nuxtjs/composition-api/module',
     // set `disableVuex` to false if you need to use Vuex alongside Pinia
-    ['@pinia/nuxt', { disableVuex: true }],
+    // ['@pinia/nuxt', { disableVuex: true }],
   ],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  bridge: {
+    nitro: true,
+  },
 }

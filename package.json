@@ -4,21 +4,23 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt generate",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.1.0",
-    "@nuxtjs/composition-api": "^0.26.0",
-    "@pinia/nuxt": "^0.0.1",
-    "core-js": "^3.16.1",
+    "@nuxtjs/composition-api": "^0.29.2",
+    "@pinia/nuxt": "^0.0.2",
+    "@vue/composition-api": "^1.2.2",
+    "core-js": "^3.18.1",
     "nuxt": "^2.15.8",
     "pinia": "^2.0.0-rc.5"
   },
   "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@latest",
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
-    "prettier": "^2.3.0"
+    "prettier": "^2.4.1"
   }
 }
