@@ -30,10 +30,25 @@ export default {
     '@nuxt/typescript-build',
     // '@nuxtjs/composition-api/module',
     // set `disableVuex` to false if you need to use Vuex alongside Pinia
-    // ['@pinia/nuxt', { disableVuex: true }],
+    ['@pinia/nuxt', { disableVuex: true }],
   ],
+
+  build: {
+    transpile: [
+      //
+      // '@pinia/nuxt',
+      'pinia',
+      'vue-demi',
+    ],
+  },
+
+  alias: {
+    // pinia: 'pinia/dist/pinia.esm-bundler.js',
+    // '@vue/composition-api/dist/vue-composition-api.esm.js': '@vue/composition-api',
+  },
 
   bridge: {
     nitro: true,
+    // capi: false,
   },
 }

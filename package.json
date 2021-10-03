@@ -12,10 +12,9 @@
     "@nuxt/typescript-runtime": "^2.1.0",
     "@nuxtjs/composition-api": "^0.29.2",
     "@pinia/nuxt": "^0.0.2",
-    "@vue/composition-api": "^1.2.2",
     "core-js": "^3.18.1",
     "nuxt": "^2.15.8",
-    "pinia": "^2.0.0-rc.5"
+    "pinia": "^2.0.0-rc.10"
   },
   "devDependencies": {
     "@nuxt/bridge": "npm:@nuxt/bridge-edge@latest",
