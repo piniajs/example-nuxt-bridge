@@ -3,23 +3,20 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt generate",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "^2.1.0",
-    "@nuxtjs/composition-api": "^0.29.2",
-    "@pinia/nuxt": "^0.0.2",
+    "@pinia/nuxt": "^0.0.4",
     "core-js": "^3.18.1",
-    "nuxt": "^2.15.8",
-    "pinia": "^2.0.0-rc.10"
+    "nuxt-edge": "latest",
+    "pinia": "^2.0.0-rc.13"
   },
   "devDependencies": {
-    "@nuxt/bridge": "npm:@nuxt/bridge-edge@latest",
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge",
     "@nuxt/types": "^2.15.8",
-    "@nuxt/typescript-build": "^2.1.0",
     "prettier": "^2.4.1"
   }
 }

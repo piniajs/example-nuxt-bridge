@@ -1,6 +1,6 @@
 // @ts-check
 import { defineStore } from 'pinia'
-import { ref } from '@nuxtjs/composition-api'
+import { ref } from 'vue-demi'
 
 /**
  * Simulate a login
