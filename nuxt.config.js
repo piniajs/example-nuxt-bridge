@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from "@nuxt/bridge";
+import { defineNuxtConfig } from '@nuxt/bridge'
 
 export default defineNuxtConfig({
   target: 'static',
@@ -19,24 +19,15 @@ export default defineNuxtConfig({
   components: true,
 
   buildModules: [
-    // '@nuxt/bridge',
-    // '@nuxtjs/composition-api/module',
     // set `disableVuex` to false if you need to use Vuex alongside Pinia
     ['@pinia/nuxt', { disableVuex: true }],
   ],
 
   build: {
     transpile: [
-      //
-      // '@pinia/nuxt',
-      // 'pinia',
-      // 'vue-demi',
+      // necessary for nuxt bridge
+      'pinia',
     ],
-  },
-
-  alias: {
-    // pinia: 'pinia/dist/pinia.esm-bundler.js',
-    // '@vue/composition-api/dist/vue-composition-api.esm.js': '@vue/composition-api',
   },
 
   bridge: {
