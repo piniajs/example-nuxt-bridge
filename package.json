@@ -9,10 +9,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.0.7",
+    "@pinia/nuxt": "^0.1.0",
     "core-js": "^3.18.1",
     "nuxt-edge": "latest",
-    "pinia": "^2.0.0-rc.14"
+    "pinia": "^2.0.0-rc.15"
   },
   "devDependencies": {
     "@nuxt/bridge": "npm:@nuxt/bridge-edge",
