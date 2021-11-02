@@ -2,7 +2,9 @@
   <main class="prose mx-auto">
     <h1>Hello 🍍 Pinia!</h1>
 
-    <p><nuxt-link to="/">Back Home</nuxt-link></p>
+    <p>
+      <nuxt-link to="/">Back Home</nuxt-link>
+    </p>
 
     <h2>Hello {{ user.name }}</h2>
 
@@ -11,9 +13,7 @@
     <form @submit.prevent="addItemToCart">
       <input type="text" class="text-black px-2" v-model="itemName" />
       <br />
-      <button class="btn m-3 text-sm mt-8" :disabled="!itemName">
-        Add Item
-      </button>
+      <button class="btn m-3 text-sm mt-8" :disabled="!itemName">Add Item</button>
     </form>
 
     <form @submit.prevent="buy">

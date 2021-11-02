@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.1.0",
+    "@vueuse/core": "^6.7.4",
     "core-js": "^3.18.1",
     "nuxt-edge": "latest",
     "pinia": "^2.0.0-rc.15"
