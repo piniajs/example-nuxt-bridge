@@ -2,6 +2,7 @@
   "name": "pinia-example-nuxt",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt generate",
@@ -13,7 +14,7 @@
     "@vueuse/core": "^6.7.4",
     "core-js": "^3.18.1",
     "nuxt-edge": "latest",
-    "pinia": "^2.0.0-rc"
+    "pinia": "^2.0.0"
   },
   "devDependencies": {
     "@nuxt/bridge": "npm:@nuxt/bridge-edge",
