@@ -16,6 +16,8 @@ export default defineNuxtConfig({
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  css: ['~/assets/main.css'],
+
   components: true,
 
   buildModules: [
