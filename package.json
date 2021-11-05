@@ -4,11 +4,11 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "nuxt dev",
-    "build": "nuxt generate",
+    "dev": "nuxi dev",
+    "build": "nuxi generate",
     "start": "node .output/server/index.mjs",
     "test": "cypress run",
-    "generate": "nuxt generate"
+    "generate": "nuxi generate"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.1.0",
