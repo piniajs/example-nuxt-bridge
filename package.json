@@ -12,10 +12,10 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.1.8",
-    "@vueuse/core": "^7.5.4",
+    "@vueuse/core": "^7.5.5",
     "core-js": "^3.20.3",
     "nuxt-edge": "latest",
-    "pinia": "^2.0.9"
+    "pinia": "^2.0.11"
   },
   "devDependencies": {
     "@exampledev/new.css": "^1.1.3",
