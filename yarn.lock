@@ -2215,12 +2215,12 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.24.tgz#d74615e856013b17fb60b19b09d712729ad5e090"
   integrity sha512-BUgRiZCkCrqDps5aQ9av05xcge3rn092ztKIh17tHkeEFgP4zfXMQWBA2zfdoCdCEdBL26xtOv+FZYiOp9RUDA==
 
-"@vueuse/core@^7.7.0":
-  version "7.7.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-7.7.0.tgz#ddc5bbc910fbe0e2eda2cc823998dcf4a13265b4"
-  integrity sha512-DS8+dg758CiWnswebYHjS05PqTtc1ZLomsDlkFjG/KC0iFRgFIsGC66AAGuSXLqWCoirp2xN6N2mkrp1aHdI7A==
+"@vueuse/core@^7.7.1":
+  version "7.7.1"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-7.7.1.tgz#fc284f4103de73c7fb79bc06579d8066790db511"
+  integrity sha512-PRRgbATMpoeUmkCEBtUeJgOwtew8s+4UsEd+Pm7MhkjL2ihCNrSqxNVtM6NFE4uP2sWnkGcZpCjPuNSxowJ1Ow==
   dependencies:
-    "@vueuse/shared" "7.7.0"
+    "@vueuse/shared" "7.7.1"
     vue-demi "*"
 
 "@vueuse/head@^0.7.2":
@@ -2228,10 +2228,10 @@
   resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-0.7.2.tgz#594e857bd7161c6087e5d0934a7ee0f7c4276154"
   integrity sha512-97RxYbIYwB9yFuRbdDbktsjKS0k12wYNksYV/UtYLOFNx+GAflK2kQ63b+sx09MJllEozD3GLeXV7O8rzMskeQ==
 
-"@vueuse/shared@7.7.0":
-  version "7.7.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-7.7.0.tgz#4fa97e68f987c8a10bf075de0e57b986da9f1b38"
-  integrity sha512-ANzMcUnjuUPJ9nWqMAqYt8p0qon6AH5pP5/V/0RSWkwCIWZwi57ujIaxizzMwnJECUF/73BmsRmpvvtokCIrKw==
+"@vueuse/shared@7.7.1":
+  version "7.7.1"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-7.7.1.tgz#77e312de7275380efce86b0079bd7938791a076b"
+  integrity sha512-rN2qd22AUl7VdBxihagWyhUNHCyVk9IpvBTTfHoLH9G7rGE552X1f+zeCfehuno0zXif13jPw+icW/wn2a0rnQ==
   dependencies:
     vue-demi "*"
 
@@ -4572,10 +4572,10 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
-cypress@^9.5.0:
-  version "9.5.0"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-9.5.0.tgz#704a79f0d3d4e775f433334eb8f5ae065e3bea31"
-  integrity sha512-rC5QPolKsVjJ8QJZ7IeZ6HlKM4gswBGZc0XvoAJNL8urQCSL8zTX0A/ai/h35WfF47NQ0iSZnwIXBlHX3MOUIQ==
+cypress@^9.5.1:
+  version "9.5.1"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-9.5.1.tgz#51162f3688cedf5ffce311b914ef49a7c1ece076"
+  integrity sha512-H7lUWB3Svr44gz1rNnj941xmdsCljXoJa2cDneAltjI9leKLMQLm30x6jLlpQ730tiVtIbW5HdUmBzPzwzfUQg==
   dependencies:
     "@cypress/request" "^2.88.10"
     "@cypress/xvfb" "^1.2.4"
