@@ -197,7 +197,6 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, onUnmounted, ref } from 'vue-demi'
 
 const blinking = ref<'open' | 'closed'>('open')
 const talking = ref<'open' | 'closed'>('closed')
