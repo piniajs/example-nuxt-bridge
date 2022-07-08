@@ -29,7 +29,7 @@
 </template>
 
 <script lang="ts">
-import { useUserStore, useCartStore } from '@/store';
+import { useUserStore, useCartStore } from '@/stores';
 
 export default defineComponent({
   layout: "custom",
