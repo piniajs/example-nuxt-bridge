@@ -1900,13 +1900,13 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
-"@pinia/nuxt@^0.4.7":
-  version "0.4.7"
-  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.4.7.tgz#dc1bd597869043fc4ef8c14977454c7b909ba5d0"
-  integrity sha512-ifgA9PO/jmPlK1e/HtkrZa7OMSL8EUOpo8Z1O5vNLRr/OZ42kKGEaY1NbIoCz6dIf/pbkATTNHJmcrlPCo3zSA==
+"@pinia/nuxt@^0.4.8":
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.4.8.tgz#ab6a6758f19da05e998dcda47be341a735c36f92"
+  integrity sha512-E0HKmW+6Ec5HYzomZl86xil2rGPRAqKG1d+slVVLBHC7PFZOM0VIw/1XFO9hwo+EiCuDEXZDReZwTqO7KQsMgQ==
   dependencies:
     "@nuxt/kit" "^3.0.0"
-    pinia ">=2.0.31"
+    pinia ">=2.0.34"
 
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.21"
@@ -3951,10 +3951,10 @@ core-js@^3.19.0, core-js@^3.22.3:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.23.4.tgz#92d640faa7f48b90bbd5da239986602cfc402aa6"
   integrity sha512-vjsKqRc1RyAJC3Ye2kYqgfdThb3zYnx9CrqoCcjMOENMtQPC7ZViBvlDxwYU/2z2NI/IPuiXw5mT4hWhddqjzQ==
 
-core-js@^3.29.1:
-  version "3.29.1"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.29.1.tgz#40ff3b41588b091aaed19ca1aa5cb111803fa9a6"
-  integrity sha512-+jwgnhg6cQxKYIIjGtAHq2nwUOolo9eoFZ4sHfUH09BLXBgxnH4gA0zEd+t+BO2cNB8idaBtZFcFTRjQJRJmAw==
+core-js@^3.30.0:
+  version "3.30.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.30.0.tgz#64ac6f83bc7a49fd42807327051701d4b1478dea"
+  integrity sha512-hQotSSARoNh1mYPi9O2YaWeiq/cEB95kOrFb4NCrO4RIFt1qqNpKsaE+vy/L3oiqvND5cThqXzUU3r9F7Efztg==
 
 core-util-is@1.0.2:
   version "1.0.2"
@@ -4317,10 +4317,10 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha512-NJGVKPS81XejHcLhaLJS7plab0fK3slPh11mESeeDq2W4ZI5kUKK/LRRdVDvjJseojbPB7ZwjnyOybg3Igea/A==
 
-cypress@^12.8.1:
-  version "12.8.1"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-12.8.1.tgz#0c6e67f34554d553138697aaf349b637d80004eb"
-  integrity sha512-lIFbKdaSYAOarNLHNFa2aPZu6YSF+8UY4VRXMxJrFUnk6RvfG0AWsZ7/qle/aIz30TNUD4aOihz2ZgS4vuQVSA==
+cypress@^12.9.0:
+  version "12.9.0"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-12.9.0.tgz#e6ab43cf329fd7c821ef7645517649d72ccf0a12"
+  integrity sha512-Ofe09LbHKgSqX89Iy1xen2WvpgbvNxDzsWx3mgU1mfILouELeXYGwIib3ItCwoRrRifoQwcBFmY54Vs0zw7QCg==
   dependencies:
     "@cypress/request" "^2.88.10"
     "@cypress/xvfb" "^1.2.4"
@@ -8075,18 +8075,10 @@ pify@^5.0.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-5.0.0.tgz#1f5eca3f5e87ebec28cc6d54a0e4aaf00acc127f"
   integrity sha512-eW/gHNMlxdSP6dmG6uJip6FXN0EQBwm2clYYd8Wul42Cwu/DK8HEftzsapcNdYe2MfLiIwZqsDk2RDEsTE79hA==
 
-pinia@>=2.0.31:
-  version "2.0.32"
-  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.32.tgz#93a12df4416566c1bb49225a078fe20b982350be"
-  integrity sha512-8Tw4OrpCSJ028UUyp0gYPP/wyjigLoEceuO/x1G+FlHVf73337e5vLm4uDmrRIoBG1hvaed/eSHnrCFjOc4nkA==
-  dependencies:
-    "@vue/devtools-api" "^6.5.0"
-    vue-demi "*"
-
-pinia@^2.0.33:
-  version "2.0.33"
-  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.33.tgz#b70065be697874d5824e9792f59bd5d87ddb5e7d"
-  integrity sha512-HOj1yVV2itw6rNIrR2f7+MirGNxhORjrULL8GWgRwXsGSvEqIQ+SE0MYt6cwtpegzCda3i+rVTZM+AM7CG+kRg==
+pinia@>=2.0.34, pinia@^2.0.34:
+  version "2.0.34"
+  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.34.tgz#6c0c84f06b631c30c030633fa64e525c609105a9"
+  integrity sha512-cgOoGUiyqX0SSgX8XelK9+Ri4XA2/YyNtgjogwfzIx1g7iZTaZPxm7/bZYMCLU2qHRiHhxG7SuQO0eBacFNc2Q==
   dependencies:
     "@vue/devtools-api" "^6.5.0"
     vue-demi "*"
@@ -9101,10 +9093,10 @@ prepend-http@^1.0.0:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
   integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
 
-prettier@^2.8.4:
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.4.tgz#34dd2595629bfbb79d344ac4a91ff948694463c3"
-  integrity sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==
+prettier@^2.8.7:
+  version "2.8.7"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.7.tgz#bb79fc8729308549d28fe3a98fce73d2c0656450"
+  integrity sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==
 
 pretty-bytes@^5.6.0:
   version "5.6.0"
