@@ -1263,10 +1263,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.0.2.tgz#1bfafe4b7ed0f3e4105837e056e0a89b108ebe36"
   integrity sha512-IkpVW/ehM1hWKln4fCA3NzJU8KwD+kIOvPZA4cqxoJHtE21CCzjyp+Kxbu0i5I4tBNOlXPL9mjwnWlL0VEG4Fg==
 
-"@cypress/request@^2.88.10":
-  version "2.88.10"
-  resolved "https://registry.yarnpkg.com/@cypress/request/-/request-2.88.10.tgz#b66d76b07f860d3a4b8d7a0604d020c662752cce"
-  integrity sha512-Zp7F+R93N0yZyG34GutyTNr+okam7s/Fzc1+i3kcqOP8vk6OuajuE9qZJ6Rs+10/1JFtXFYMdyarnU1rZuJesg==
+"@cypress/request@^2.88.11":
+  version "2.88.11"
+  resolved "https://registry.yarnpkg.com/@cypress/request/-/request-2.88.11.tgz#5a4c7399bc2d7e7ed56e92ce5acb620c8b187047"
+  integrity sha512-M83/wfQ1EkspjkE2lNWNV5ui2Cv7UCv1swW1DqljahbzLVWltcsexQh8jYtuS/vzFXP+HySntGM83ZXA9fn17w==
   dependencies:
     aws-sign2 "~0.7.0"
     aws4 "^1.8.0"
@@ -1281,7 +1281,7 @@
     json-stringify-safe "~5.0.1"
     mime-types "~2.1.19"
     performance-now "^2.1.0"
-    qs "~6.5.2"
+    qs "~6.10.3"
     safe-buffer "^5.1.2"
     tough-cookie "~2.5.0"
     tunnel-agent "^0.6.0"
@@ -1787,10 +1787,10 @@
     rc9 "^1.2.0"
     std-env "^2.3.0"
 
-"@nuxt/types@^2.17.0":
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-2.17.0.tgz#6bdbebcd7d2e1f9309136b626dee9fb0aaf27d75"
-  integrity sha512-McgjOTBpnbicjo830MYiCtI1zzkkq0W23GlxcWfLAsi5vjqjfcBn9w9emVhOCDfNNbhMPsvfp3B5MyPZEaqo9A==
+"@nuxt/types@^2.17.1":
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-2.17.1.tgz#64d6eca5975aca2f31e46a3e7021f20a94f2ebca"
+  integrity sha512-7xRaSzRHWOrESmzRR2v7aNOd85/NlzdtIesLa7mDF+4Tv18lT9+eNHRuhiH2FKqt4j+/EKVxMl1Gvdzf4lO9Lg==
   dependencies:
     "@types/babel__core" "7.20.1"
     "@types/compression" "1.7.2"
@@ -1802,7 +1802,7 @@
     "@types/node" "^16"
     "@types/optimize-css-assets-webpack-plugin" "5.0.5"
     "@types/pug" "2.0.6"
-    "@types/serve-static" "1.15.1"
+    "@types/serve-static" "1.15.2"
     "@types/terser-webpack-plugin" "4.2.1"
     "@types/webpack" "4.41.33"
     "@types/webpack-bundle-analyzer" "3.9.5"
@@ -2150,6 +2150,11 @@
     "@types/relateurl" "*"
     "@types/uglify-js" "*"
 
+"@types/http-errors@*":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@types/http-errors/-/http-errors-2.0.1.tgz#20172f9578b225f6c7da63446f56d4ce108d5a65"
+  integrity sha512-/K3ds8TRAfBvi5vfjuz8y6+GiAYBZ0x4tXv1Av6CWBWn0IlADc+ZX9pMq7oU0fNQPnBwIZl3rmeLp6SBApbxSQ==
+
 "@types/jsdom@^16.2.14":
   version "16.2.14"
   resolved "https://registry.yarnpkg.com/@types/jsdom/-/jsdom-16.2.14.tgz#26fe9da6a8870715b154bb84cd3b2e53433d8720"
@@ -2251,11 +2256,12 @@
     "@types/mime" "^1"
     "@types/node" "*"
 
-"@types/serve-static@1.15.1":
-  version "1.15.1"
-  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.15.1.tgz#86b1753f0be4f9a1bee68d459fcda5be4ea52b5d"
-  integrity sha512-NUo5XNiAdULrJENtJXZZ3fHtfMolzZwczzBbnAeBbqBwG+LaG6YaJtuwzwGSQZ2wsCrxjEhNNjAkKigy3n8teQ==
+"@types/serve-static@1.15.2":
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/@types/serve-static/-/serve-static-1.15.2.tgz#3e5419ecd1e40e7405d34093f10befb43f63381a"
+  integrity sha512-J2LqtvFYCzaj8pVYKw8klQXrLLk7TBZmQ4ShlcdkELFKGwGMfevMLneMMRkMgZxotOD9wg497LpC7O8PcvAmfw==
   dependencies:
+    "@types/http-errors" "*"
     "@types/mime" "*"
     "@types/node" "*"
 
@@ -4355,12 +4361,12 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha512-NJGVKPS81XejHcLhaLJS7plab0fK3slPh11mESeeDq2W4ZI5kUKK/LRRdVDvjJseojbPB7ZwjnyOybg3Igea/A==
 
-cypress@^12.17.0:
-  version "12.17.0"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-12.17.0.tgz#3a907a41c4afbb44be7b84e822e4914d734a6bb0"
-  integrity sha512-nq0ug8Zrjq/2khHU1PTNxg+3/n1oqtmAFCxwQhS6QzkQ4mR6RLitX+cGIOuIMfnEbDAtVub0hZh661FOA16JxA==
+cypress@^12.17.1:
+  version "12.17.1"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-12.17.1.tgz#777fdcceec4ecd642fc90795f5994853b6ea03f8"
+  integrity sha512-eKfBgO6t8waEyhegL4gxD7tcI6uTCGttu+ZU7y9Hq8BlpMztd7iLeIF4AJFAnbZH1xjX+wwgg4cRKFNSvv3VWQ==
   dependencies:
-    "@cypress/request" "^2.88.10"
+    "@cypress/request" "^2.88.11"
     "@cypress/xvfb" "^1.2.4"
     "@types/node" "^14.14.31"
     "@types/sinonjs__fake-timers" "8.1.1"
@@ -9346,10 +9352,12 @@ qs@^6.9.4:
   dependencies:
     side-channel "^1.0.4"
 
-qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+qs@~6.10.3:
+  version "6.10.5"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.10.5.tgz#974715920a80ff6a262264acd2c7e6c2a53282b4"
+  integrity sha512-O5RlPh0VFtR78y79rgcgKK4wbAI0C5zGVLztOIdpWX6ep368q5Hv6XRxDvXuZ9q3C6v+e3n8UfZZJw7IIG27eQ==
+  dependencies:
+    side-channel "^1.0.4"
 
 query-string@^4.1.0:
   version "4.3.4"
