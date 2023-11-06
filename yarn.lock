@@ -4004,10 +4004,10 @@ core-js@^3.19.0, core-js@^3.22.3:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.23.4.tgz#92d640faa7f48b90bbd5da239986602cfc402aa6"
   integrity sha512-vjsKqRc1RyAJC3Ye2kYqgfdThb3zYnx9CrqoCcjMOENMtQPC7ZViBvlDxwYU/2z2NI/IPuiXw5mT4hWhddqjzQ==
 
-core-js@^3.33.1:
-  version "3.33.1"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.33.1.tgz#ef3766cfa382482d0a2c2bc5cb52c6d88805da52"
-  integrity sha512-qVSq3s+d4+GsqN0teRCJtM6tdEEXyWxjzbhVrCHmBS5ZTM0FS2MOS0D13dUXAWDUN6a+lHI/N1hF9Ytz6iLl9Q==
+core-js@^3.33.2:
+  version "3.33.2"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.33.2.tgz#312bbf6996a3a517c04c99b9909cdd27138d1ceb"
+  integrity sha512-XeBzWI6QL3nJQiHmdzbAOiMYqjrb7hwU7A39Qhvd/POSa/t9E1AeZyEZx3fNvp/vtM8zXwhoL0FsiS0hD0pruQ==
 
 core-util-is@1.0.2:
   version "1.0.2"
@@ -4370,10 +4370,10 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha512-NJGVKPS81XejHcLhaLJS7plab0fK3slPh11mESeeDq2W4ZI5kUKK/LRRdVDvjJseojbPB7ZwjnyOybg3Igea/A==
 
-cypress@^13.3.3:
-  version "13.3.3"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-13.3.3.tgz#353e69b6543aee8aee4e91fa39bcecbab26ab564"
-  integrity sha512-mbdkojHhKB1xbrj7CrKWHi22uFx9P9vQFiR0sYDZZoK99OMp9/ZYN55TO5pjbXmV7xvCJ4JwBoADXjOJK8aCJw==
+cypress@^13.4.0:
+  version "13.4.0"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-13.4.0.tgz#7d91069983ba7c664c505abde84d3e3e20484344"
+  integrity sha512-KeWNC9xSHG/ewZURVbaQsBQg2mOKw4XhjJZFKjWbEjgZCdxpPXLpJnfq5Jns1Gvnjp6AlnIfpZfWFlDgVKXdWQ==
   dependencies:
     "@cypress/request" "^3.0.0"
     "@cypress/xvfb" "^1.2.4"
