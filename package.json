@@ -15,7 +15,7 @@
     "@vueuse/core": "^14.0.0",
     "core-js": "^3.37.1",
     "nuxt-edge": "latest",
-    "pinia": "^2.1.7"
+    "pinia": "^3.0.3"
   },
   "devDependencies": {
     "@exampledev/new.css": "^1.1.3",
