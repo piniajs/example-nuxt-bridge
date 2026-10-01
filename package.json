@@ -11,7 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.5.1",
+    "@pinia/nuxt": "^1.0.2",
     "@vueuse/core": "^14.0.0",
     "core-js": "^3.37.1",
     "nuxt-edge": "latest",
