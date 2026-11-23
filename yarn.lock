@@ -2293,10 +2293,10 @@
   dependencies:
     source-map "^0.6.1"
 
-"@types/web-bluetooth@^0.0.21":
-  version "0.0.21"
-  resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.21.tgz#525433c784aed9b457aaa0ee3d92aeb71f346b63"
-  integrity sha512-oIQLCGWtcFZy2JW77j9k8nHzAOpqMHLQejDA48XXMWH6tjCQHz5RCFz1bzsmROyL6PUm+LLnUiI4BCn221inxA==
+"@types/web-bluetooth@^0.0.22":
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.22.tgz#d587ebfe9e4b28ff2965e5177beaf5a293ac838a"
+  integrity sha512-4O7kU0Ut0irZvFyk3EvgDrzFYBQI80Puhkb65I7eV6WTZX4iOo5zoDrEfjDBRB7x5Stz31csoHO4hAjSiRTALw==
 
 "@types/webpack-bundle-analyzer@3.9.5":
   version "3.9.5"
@@ -2495,24 +2495,24 @@
   resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.5.0.tgz#98b99425edee70b4c992692628fa1ea2c1e57d07"
   integrity sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==
 
-"@vueuse/core@^14.0.0":
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-14.0.0.tgz#a3d9520935a191b167cb91e08f698545e46bf0a6"
-  integrity sha512-d6tKRWkZE8IQElX2aHBxXOMD478fHIYV+Dzm2y9Ag122ICBpNKtGICiXKOhWU3L1kKdttDD9dCMS4bGP3jhCTQ==
+"@vueuse/core@^15.1.0":
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-15.1.0.tgz#e33a17fc754844acbd6469328a3c07a00e91917e"
+  integrity sha512-OuZ5ecLw/sikX0HFjlJM/p/PkfL0567Ntfov9G0jYlw92QqZpPVikZOoB1Mpe4unZ+7E/QQ+uFpEgAjj2FYRbw==
   dependencies:
-    "@types/web-bluetooth" "^0.0.21"
-    "@vueuse/metadata" "14.0.0"
-    "@vueuse/shared" "14.0.0"
+    "@types/web-bluetooth" "^0.0.22"
+    "@vueuse/metadata" "15.1.0"
+    "@vueuse/shared" "15.1.0"
 
-"@vueuse/metadata@14.0.0":
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-14.0.0.tgz#139231dc8503f172a7a45ce1ceaa7a415befbf3c"
-  integrity sha512-6yoGqbJcMldVCevkFiHDBTB1V5Hq+G/haPlGIuaFZHpXC0HADB0EN1ryQAAceiW+ryS3niUwvdFbGiqHqBrfVA==
+"@vueuse/metadata@15.1.0":
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-15.1.0.tgz#72f0464a632d98564565dc958697d509b1ccbaa6"
+  integrity sha512-yHKFelRTdQdp7vdjXXEw68Wh9v8OgyxWm1v1aHbGM6Z4qbqHhB6QgB8MTNB76pZYh22wPeALCdr8qjShlxPBHA==
 
-"@vueuse/shared@14.0.0":
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-14.0.0.tgz#15a424285fd6d453d1a99d1caba8cc293992868d"
-  integrity sha512-mTCA0uczBgurRlwVaQHfG0Ja7UdGe4g9mwffiJmvLiTtp1G4AQyIjej6si/k8c8pUwTfVpNufck+23gXptPAkw==
+"@vueuse/shared@15.1.0":
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-15.1.0.tgz#477e51994fcad14a2b35d82c68a380af5161ebf9"
+  integrity sha512-JAbQLO+vOULt8MPR4oRbvstBuztTTMIX4LOfCGeBvp9JSgj5OppZDing3gKDrmlyUQvYYFSPIX4dxkfJgdsxWQ==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
